@@ -19,8 +19,11 @@ That area is called the _results sidebar_. As you add or change code, the playgr
     - Change the numbers a few times.
     - Add a few new numbers, each on a separate line.\
 Notice that every time you make a change the results are updated in the sidebar.
-
-Next, find out how to put the results sidebar to better use.
+*/
+5150
+-4278
+/*:
+ Next, find out how to put the results sidebar to better use.
  
  [Previous](@previous)  |  page 2 of 7  |  [Next: Calculations](@next)
 */

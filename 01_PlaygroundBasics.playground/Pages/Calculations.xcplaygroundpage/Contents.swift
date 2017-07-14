@@ -16,7 +16,10 @@
 //: Practice using the playground like a calculator.
 //: Edit some of the existing expressions and add a few of your own.
 //: Notice that every time you make a change the results are updated in the sidebar.
-//:
+107.5 + 65 + 132.5
+72 - 21
+23 * 34
+225 / 32
 //: Next, learn how programmers can leave notes in code.
 //:
 //:[Previous](@previous)  |  page 3 of 7  |  [Next: Comments](@next)

@@ -15,7 +15,12 @@
 //:Try _uncommenting_ the calculation `200 + 34 + 45` by deleting the two slashes.\
 //:Edit some of the existing expressions and add a few of your own.\
 //:Notice that every time you make a change the results are updated in the sidebar.
-//:
+// This is a commented calculation
+// 34 + 56 + 230
+
+// This is not
+200 + 34 + 45
+
 //: Take a deep breath and move on to the next page.
 //:
 //:[Previous](@previous)  |  page 4 of 7  |  [Next: When Things Go Wrong 😰](@next)
