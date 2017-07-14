@@ -5,8 +5,8 @@
  Another reason that naming things and only setting a value once is useful is that it lets you decide on the correct way of calculating something, then change the values and check the answers.
 */
 // Values you should edit
-let ticketsSold = 1000
-let ticketPrice = 1
+let ticketsSold = 1100
+let ticketPrice = 2
 let printingCosts = 20
 let advertising = 50
 /*:

@@ -23,7 +23,23 @@ let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
 //: - Someone is bringing a pot-bellied pig (a mammal)
 //: - Someone is bringing a fish (not a mammal)
 //: - Someone is bringing a snake (definitely not a mammal)
-//:
+let updatedNumberOfDogs = 6 + 2
+
+let updatedNumberOfCats = 5 - 1
+
+let updatedNumberOfTurtles = 2 + 1
+
+let updatedNumberOfHamsters = 1 + 1
+
+let numberOfPotBelliedPigs = 1
+
+let numberOfFishes = 1
+
+let numberOfSnakes = 1
+
+let updatedTotalNumberOfAnimals = updatedNumberOfDogs + updatedNumberOfCats + updatedNumberOfTurtles + updatedNumberOfHamsters + numberOfPotBelliedPigs + numberOfFishes + numberOfSnakes
+
+let updatedTotalNumberOfMammals = updatedNumberOfDogs + updatedNumberOfCats + updatedNumberOfHamsters + numberOfPotBelliedPigs
 //: Next, learn about choosing names. 
 //:
 //:[Previous](@previous)  |  page 6 of 14  |  [Next: Choosing Good Names](@next)

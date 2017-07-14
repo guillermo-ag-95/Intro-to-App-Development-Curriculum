@@ -30,7 +30,23 @@
 //: - One of the turtles is sick and won’t be coming.
 //: - Another person is bringing a cat.
 //: - Someone is bringing a hamster (a mammal).
-//:
+// Number Of Dogs
+6
+
+// Number Of Cats
+5
+
+// Number Of Turtles
+2
+
+// Number Of Hamsters
+1
+
+// Total Number Of Animals
+6 + 5 + 2 + 1
+
+// Total Number Of Mammals
+6 + 5 + 1
 //:  Could there be a better way to solve this problem? Think about it for a minute or two, then move on.
 //:
 //:[Previous](@previous)  |  page 2 of 14  |  [Next: Pet Problem Recap](@next)

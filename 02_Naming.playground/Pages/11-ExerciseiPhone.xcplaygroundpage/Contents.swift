@@ -15,9 +15,10 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
 */
+let iPhoneStorageCapacity = 8 * 1000
+let appleStuff = 3 * 1000
+let oneMinuteOfVideo = 150
 
-
-
-
-
+let realStorage = iPhoneStorageCapacity - appleStuff
+let numberOfMinutesToFill = realStorage / oneMinuteOfVideo
 //:[Previous](@previous)  |  page 12 of 14  |  [Next: Exercise: Fixing Your Morning](@next)

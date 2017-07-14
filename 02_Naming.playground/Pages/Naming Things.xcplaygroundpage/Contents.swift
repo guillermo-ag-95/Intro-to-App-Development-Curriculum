@@ -31,7 +31,17 @@ let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters
 //: - The sick turtle is feeling much better and will be coming to the pet show.
 //: - One of the cats cannot make it.
 //: - Another person is bringing a hamster.
-//:
+let updatedNumberOfDogs = 8
+
+let updatedNumberOfCats = 4
+
+let updatedNumberOfTurtles = 3
+
+let updatedNumberOfHamsters = 2
+
+let updatedTotalNumberOfAnimals = updatedNumberOfDogs + updatedNumberOfCats + updatedNumberOfTurtles + updatedNumberOfHamsters
+
+let updatedTotalNumberOfMammals = updatedNumberOfDogs + updatedNumberOfCats + updatedNumberOfHamsters
 //: Once you’re finished experimenting, move ahead.
 //:
 //:[Previous](@previous)  |  page 4 of 14  |  [Next: Typing Names and Autocompletion](@next)

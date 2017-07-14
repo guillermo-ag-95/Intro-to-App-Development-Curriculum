@@ -16,13 +16,19 @@
 150 * 10
 
 // Total Expenses
-1000 + 40
+50 + 40
 
 // Total Income Of Show
-(150 * 10) - (1000 + 40)
+(150 * 10) - (50 + 40)
 //: - callout(Exercise): Using the code above as a reference, use let statements to define constants to better solve your friend’s problem.\
 //:Add your code below. To help you get started, the constant `numberOfTickets` is already defined. 
 let numberOfTickets = 150
+let ticketsPrice = 10
+let roomRentalFee = 1000
+let posterCost = 40
 
+let totalTicketValue = numberOfTickets * ticketsPrice
+let totalExpenses = roomRentalFee + posterCost
+let totalIncomeOfShow = totalTicketValue - totalExpenses
 //:
 //:[Previous](@previous)  |  page 10 of 14  |  [Next: Exercise: Lottery Tickets](@next)
