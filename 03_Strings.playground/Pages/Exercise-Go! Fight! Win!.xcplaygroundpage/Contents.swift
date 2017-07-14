@@ -17,8 +17,8 @@
  */
 
 
-let schoolName = "YOUR SCHOOL NAME"
-let refrain = "hmm hmm HMMM hm-hmm \(schoolName) hmm hmm HMMMMM"
+let schoolName = "Stanford"
+let refrain = "Go! \(schoolName) Fight! \(schoolName) Win!"
 
 let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
 

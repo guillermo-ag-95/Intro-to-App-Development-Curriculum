@@ -14,9 +14,12 @@
  
  _Hint:_ Do all of your calculations in megabytes.
  */
+let iPhoneCapacity = 8 * 1000
+let appleStuff = 3 * 1000
+let oneMinuteVideo = 150
+let numberOfMinutes = (iPhoneCapacity - appleStuff) / oneMinuteVideo
 
-
-
+let message = "You can record \(numberOfMinutes) more minutes of video."
 
 
 
