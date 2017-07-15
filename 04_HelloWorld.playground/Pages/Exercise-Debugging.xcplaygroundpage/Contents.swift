@@ -18,23 +18,19 @@
 
 let questionWord = "WHY"
 let connectorWord = "but"
-let question = "\(connectorWord) \\(questionWord)?"
+let question = "\(connectorWord) \(questionWord)?"
 
-let incessantQuestion = "\(question)\(question)\(question)\(question)"
+let incessantQuestion = "\(question) \(question) \(question) \(question)"
 
 let name = "Kim"
 let summons = "\(name) \(name). \(name)!"
 
-let botheration = "\(summons)\(incessantQuestion)"
+let botheration = "\(summons) \(incessantQuestion)"
 
 
 // -------------- 👆 The code that needs fixing is above this line 👆 --------------------
 //: Sadly, this program has a bug. Follow the directions to find and fix the error!
 // -------------- 👇 Add your print statements below this line 👇 --------------------
-
-
-
-
 /*:
 
  1. Print out the `botheration` constant like this:
@@ -51,6 +47,14 @@ let botheration = "\(summons)\(incessantQuestion)"
  4. Once the final string looks more like something that would be sent by a human than by a computer, play around with the constants to create your own message:
 	* Change the string constants `questionWord`, `connectorWord`, and `name` to have different values
 	* Change the `question`, `incessantQuestion` and `summons` to combine the other constants in different ways. You can use more repetition, less repetition, or even mix in your own new phrases.
- 
+ */
+// 1. Print out the botheration constant like this:
+print(botheration)
+
+// 2. Check the intermediate constants.
+print(question)
+
+// 3. Start fixing them from first to last.
+/*:
 [Previous](@previous)  |  page 10 of 11  |  [Next: Exercise: The Console App](@next)
  */
