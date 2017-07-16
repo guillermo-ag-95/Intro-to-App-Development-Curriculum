@@ -9,24 +9,34 @@
  
  Write out the song or meme using `print` statements, then look for patterns and repetition and choose groups of lines to combine into functions. This is a free-form exercise, so you can do whatever you like.
 */
+//print("Knock, knock, knock")
+//print("Penny")
+//print("Knock, knock, knock")
+//print("Penny")
+//print("Knock, knock, knock")
+//print("Penny")
 
+func knock(){
+    print("Knock, knock, knock")
+}
 
+func call(){
+    print("Penny")
 
+}
 
+func knockingTheDoor(){
+    knock()
+    call()
+}
 
+func sheldon(){
+    knockingTheDoor()
+    knockingTheDoor()
+    knockingTheDoor()
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+sheldon()
 //: Next, make the meme your own.
 //:
 //: [Previous](@previous)  |  page 11 of 12  |  [Next: Personal Meme](@next)

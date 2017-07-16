@@ -5,26 +5,27 @@
  
  Inside one of the functions, make changes that make the whole text mean something different, or make it funnier. You could change a name to your name or a friend’s, change a word to something else that rhymes, or just play around.
 */
+func knock(){
+    print("Knock, knock, knock")
+}
 
+func call(){
+    print("Permo")
+    
+}
 
+func knockingTheDoor(){
+    knock()
+    call()
+}
 
+func sheldon(){
+    knockingTheDoor()
+    knockingTheDoor()
+    knockingTheDoor()
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+sheldon()
 /*:
  
  _Copyright © 2017 Apple Inc._

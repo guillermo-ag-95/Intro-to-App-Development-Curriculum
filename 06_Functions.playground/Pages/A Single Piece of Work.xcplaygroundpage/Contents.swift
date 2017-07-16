@@ -26,13 +26,12 @@ func rowTheBoat() {
  What happens if you call your function more than once?
 
 */
+func learningSwift(){
+    print("I am learning Swift and")
+    print("I am uploading the code to GitHub")
+}
 
-
-
-
-
-
-
+learningSwift()
 //: Next, learn about how to think about tasks and divide them up in a way that makes sense.
 //:
 //: [Previous](@previous)  |  page 4 of 12  |  [Next: Breaking It Down](@next)

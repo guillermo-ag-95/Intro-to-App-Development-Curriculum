@@ -7,7 +7,6 @@
  
  This is called an _infinite loop_. It's not really infinite, because in most cases it will cause the program to run out of memory and eventually crash (or the bottle to run out of shampoo).
  */
-
 func rowTheBoat() {
     print("Row, row, row your boat")
     print("Gently down the stream")
@@ -21,6 +20,7 @@ func merrilyDream() {
 func verseOne() {
     rowTheBoat()
     merrilyDream()
+    //verseOne()
 }
 
 verseOne()
