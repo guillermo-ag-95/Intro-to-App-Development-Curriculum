@@ -19,13 +19,17 @@
 startBot()
 startRecording()
 
+setBotTitle("Boogie Workshop 1")
+setBotSubtitle("By Guillermo Alcalá")
 
+fabulize()
 
+leftArmUp()
+rightArmUp()
+leftArmDown()
+rightArmDown()
 
-
-
-
-
+defabulize()
 //: Continue with your creativity.
 //:
 //:[Previous](@previous)  |  page 10 of 13  |  [Next: Boogie Workshop](@next)

@@ -12,14 +12,15 @@
  `setBotSubtitle("By The Boogiemaster")`
 */
 startBot()
-setBotTitle("Sunday Night Fever")
-setBotSubtitle("By John Showboater")
+setBotTitle("Saturday Night Fever")
+setBotSubtitle("By Guillermo Alcalá")
 
 func doTheDisco() {
     fabulize()
     leftArmUp()
     leftArmDown()
 }
+
 doTheDisco()
 doTheDisco()
 doTheDisco()

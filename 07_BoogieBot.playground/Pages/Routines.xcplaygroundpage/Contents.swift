@@ -29,7 +29,20 @@ doTheDisco()
  You’ll get all these benefits with `doTheDisco()`.
  
  - experiment: Change the `doTheDisco()` function into a mirror image, so anything done “left” becomes “right”, and anything “right” becomes “left”. Imagine how much work it would have been if you’d typed out the same moves three times.
- 
+*/
+func doTheDiscoMirror(){
+    rightArmUp()
+    shakeItLeft()
+    rightArmDown()
+    shakeItCenter()
+}
+
+startBot()
+fabulize()
+doTheDiscoMirror()
+doTheDiscoMirror()
+doTheDiscoMirror()
+/*:
  Want to personalize your BoogieBot? Learn how to sign your work on the next page.
  
  [Previous](@previous)  |  page 5 of 13  |  [Next: Sign Your Work](@next)

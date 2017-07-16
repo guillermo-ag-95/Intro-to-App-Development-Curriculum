@@ -19,13 +19,40 @@
 startBot()
 startRecording()
 
+setBotTitle("Boogie Workshop 4")
+setBotSubtitle("By Guillermo Alcalá")
 
+leftArmUp()
+rightArmUp()
+leftArmDown()
+rightArmDown()
 
+fabulize()
 
+leftArmUp()
+rightArmUp()
+leftArmDown()
+rightArmDown()
 
+shakeItLeft()
+shakeItRight()
+shakeItCenter()
 
+leftLegUp()
+rightLegUp()
+leftLegDown()
+rightLegDown()
 
+shakeItLeft()
+shakeItRight()
+shakeItCenter()
 
+leftArmUp()
+rightArmUp()
+leftArmDown()
+rightArmDown()
+
+defabulize()
 /*:
  
  _Copyright © 2017 Apple Inc._
