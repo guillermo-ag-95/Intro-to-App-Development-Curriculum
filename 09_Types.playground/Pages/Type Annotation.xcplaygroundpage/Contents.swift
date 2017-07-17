@@ -10,7 +10,7 @@
  
  There may also be times when you don’t want Swift to use type inference, because it might not give you the type you want, as in the calculation with `Double` and `Int` types you attempted earlier.
  
- In these cases, you can add can add an extra piece of information, called a _type annotation_, to tell Swift exactly what type you want to use. Type annotation is entered right after the name declaration, using a colon and the name of the type:
+ In these cases, you can add an extra piece of information, called a _type annotation_, to tell Swift exactly what type you want to use. Type annotation is entered right after the name declaration, using a colon and the name of the type:
 */
 let annotatedDouble: Double = 20
 let inferredDouble = 0.5

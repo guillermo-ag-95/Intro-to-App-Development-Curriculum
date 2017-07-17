@@ -12,10 +12,10 @@
 let partNumber = 3.2
 let wholeNumber = 2
 //: - experiment: Try to perform a calculation with `partNumber` and `wholeNumber`, for example add them together. Look at the errors. Change the values to be both whole numbers, or both decimal numbers, and see what difference it makes.
+let partNumber2 = 3.2
+let wholeNumber2 = 2.0
 
-
-
-
+partNumber2 + wholeNumber2
 //: You can‘t mix and match `Double` and `Int` types in Swift because of type safety.\
 //: Next, find out another way Swift decides on types.\
 //: [Previous](@previous)  |  page 6 of 13  |  [Next: Type Inference from Assignment](@next)
