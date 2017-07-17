@@ -20,7 +20,11 @@ has the same effect as:
 `score += 2`
  
 - experiment: Replace the line of code `score = score + 2` above using `+=` instead. Note that the result in the results bar is the same. Add a few more lines of code that add more points using the `+=` operator.
-
+*/
+score = 0
+score = score + 2
+score += 2
+/*:
  #### Compound Assignment
  The formal name for this kind of operator is a _compound assignment_ operator. The `+=` operator not only works for numbers, but anywhere you can use the addition operator `+`.
  
@@ -39,10 +43,10 @@ let space = " "
 
 var statement = ""
 statement += word1
-
-
-
-
-
-
+statement += space
+statement += word2
+statement += space
+statement += word3
+statement += space
+statement += word4
 //: [Previous](@previous)  |  page 5 of 13  |  [Next: Confusing Changes](@next)

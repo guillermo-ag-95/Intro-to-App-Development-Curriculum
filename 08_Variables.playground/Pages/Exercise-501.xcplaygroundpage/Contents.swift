@@ -20,9 +20,15 @@
  \
  After each round, `print` some statements that your opponents might make. If you can, use the value of your current score in their statements.
  */
+var overallScore = 501
+var roundScore = 0
 
+roundScore += 10
+roundScore += 15
+roundScore += 7
 
-
+overallScore -= roundScore
+roundScore = 0
 /*:
  
  _Copyright © 2017 Apple Inc._
