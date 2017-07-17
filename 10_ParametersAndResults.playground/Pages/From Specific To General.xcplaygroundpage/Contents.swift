@@ -7,6 +7,7 @@ func helloJohnny() {
     let name = "Johnny"
     print("Hello " + name)
 }
+
 helloJohnny()
 /*:
  The function `helloJohnny()` is very _specific_. If you wanted to say hello to Vikram, you'd need to write a `helloVikram()` function. That would soon get tedious, and programmers don’t like to repeat themselves or do more work than is absolutely necessary.
@@ -29,10 +30,7 @@ hello(name: "Maria")
 hello(name: "Vikram")
 
 //: - experiment: Call the function a few more times, passing in different arguments. Notice that the autocompletion pop up tells you that the function has a `String` parameter called `name`.
-
-
-
-
+hello(name: "Guillermo")
 //: Next get some practice by making your own function that takes an argument.
 //:
 //: [Previous](@previous)  |  page 2 of 17  |  [Next: Your Favorite Food](@next)

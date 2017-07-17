@@ -17,10 +17,7 @@ func hello(firstName: String, lastName: String) {
 hello(firstName: "Johnny", lastName: "Appleseed")
 hello(firstName: "John", lastName: "Snow")
 //: - Experiment: Call the function a few more times with the names of your favorite celebrities. Note how autocompletion tells you about both parameters and how you can use the Tab key to move to the next argument.
-
-
-
-
+hello(firstName: "Guillermo", lastName: "Alcalá")
 //: Get some more practice with this sort of function on the next page.
 //:
 //: [Previous](@previous)  |  page 4 of 17  |  [Next: Other Favorite Things](@next)
