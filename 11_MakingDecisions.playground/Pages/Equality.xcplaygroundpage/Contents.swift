@@ -27,13 +27,8 @@ let nineTimesTen = 9 * 10
 hundred == tenTimesTen
 hundred == nineTimesTen
 //: - Experiment: Try some comparisons of your own. Can you check if two string values are equal?
-
-
-
-
-
-
-
+"Hello" == "Hello"
+"Hello" == "Bye"
 //: Find out more ways to compare values on the next page.
 //:
 //: [Previous](@previous)  |  page 3 of 13  |  [Next: More Comparisons](@next)

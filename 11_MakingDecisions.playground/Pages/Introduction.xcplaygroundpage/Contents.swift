@@ -5,12 +5,10 @@
  
  Consider the string interpolations you learned about. You had to perform a calculation and show the result in a string, something like this:
  */
-
 let videoLength = 3
 let videoLengthTooShortReaction = "If I blinked, I'd miss it!"
 let videoReasonableLengthReaction = "That was lovely."
 let videoMessage = "Your video is \(videoLength) seconds long. \(videoLengthTooShortReaction)"
-
 /*:
  If the answer was 3, then this works fine:
  

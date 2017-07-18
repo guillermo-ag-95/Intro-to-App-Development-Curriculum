@@ -13,5 +13,10 @@ if secretWord != guess {
     print("Your guess is wrong.")
 }
 //: - callout(Exercise): Rewrite the code above to use an else statement.
+if secretWord == guess {
+    print("Your guess is right.")
+} else {
+    print("Your guess is wrong.")
+}
 //:
 //: [Previous](@previous)  |  page 12 of 13  |  [Next: Exercise: Leap Years](@next)
