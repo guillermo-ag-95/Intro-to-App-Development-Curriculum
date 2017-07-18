@@ -13,8 +13,6 @@ let example = "It was the best of times"
 example.hasPrefix("It was")
 example.hasSuffix("times")
 example.isEmpty
-
-
 /*:
  Next see another way to see help while looking at code.
  

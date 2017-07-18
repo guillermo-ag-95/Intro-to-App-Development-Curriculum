@@ -35,12 +35,14 @@ rightBot.shakeItLeft()
 rightBot.shakeItCenter()
 rightBot.leftLegUp()
 rightBot.leftLegDown()
-
-
-
-
-
-
 //: - Experiment: Use the instance methods of BoogieBot to build a fun dance-off between the two robots. The autocompletion pop-up menu will help you out, and there's no danger of calling `leftArmUp()` if you don't already have a working robot.
+leftBot.shakeItLeft()
+leftBot.shakeItCenter()
+leftBot.shakeItRight()
+leftBot.shakeItCenter()
 
+rightBot.shakeItRight()
+rightBot.shakeItCenter()
+rightBot.shakeItLeft()
+rightBot.shakeItCenter()
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Treehouse Pulley](@next)

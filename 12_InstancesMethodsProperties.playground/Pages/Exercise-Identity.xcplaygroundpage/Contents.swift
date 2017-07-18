@@ -11,13 +11,15 @@ Check the values of `myPlans` and `friendPlans`. Are they the same or different?
  */
 // Create your variables here:
 
-
+var myPlans = "I'll be doing another lesson. "
+var friendPlans = myPlans
 
 // Update `myPlans` here:
 
+myPlans += "I'll drink a chocolate shake "
 
-
-
+myPlans
+friendPlans
 /*:
  - callout(Exercise):
  Create a function `addDance` that takes a string, appends a phrase about dancing (like `"and then we dance!"` or `"but no dancing"`, according to your taste), and returns the new string.\
@@ -25,9 +27,13 @@ Call the `addDance` function on `myPlans`, and assign the result to `friendPlans
  */
 // Define and call your function here:
 
+func addDance(_ plan: inout String) -> String {
+    plan.append("and then we dance!")
+    return plan
+}
 
-
-
+addDance(&myPlans)
+friendPlans = myPlans
 /*:
  - callout(Exercise):
  How do you expect `friendPlans` to change? How do you expect `myPlans` to change?\
@@ -35,9 +41,8 @@ Call the `addDance` function on `myPlans`, and assign the result to `friendPlans
  */
 // Check your guess by printing here:
 
-
-
-
+myPlans
+friendPlans
 /*:
  
  _Copyright © 2017 Apple Inc._

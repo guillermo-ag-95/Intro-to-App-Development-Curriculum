@@ -14,13 +14,6 @@
 */
 let example = "It was the best of times"
 // Practice here by typing . after "example":
-example
-
-
-
-
-
-
 /*: 
  APIs also come with documentation to help you learn about them and see how they should be used.
  
