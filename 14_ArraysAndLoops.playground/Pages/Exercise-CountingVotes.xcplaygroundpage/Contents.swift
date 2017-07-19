@@ -18,21 +18,66 @@ let shouldHaveMorePollOptionsVotes: [Bool] = [false, false, true, true, false, t
 
 //: - callout(Exercise): Create two variables, one to count `yes` votes and one to count `no` votes. Each should start off with a value of zero.
 //:
-
+var yesVotes: Int = 0
+var noVotes: Int = 0
 //: - callout(Exercise): Create a `for…in` loop that loops over one of the vote collections and checks the value of each vote. If the vote is `true`, the loop should add one vote to the `yes` variable. If it's `false`, it should add one vote to the `no` variable.
-
-
-
+for vote in shouldMascotChangeVotes {
+    if vote == true {
+        yesVotes += 1
+    } else {
+        noVotes += 1
+    }
+}
 //: - callout(Exercise): After the loop has finished, write an `if` statement that compares the two values and prints a different message based on whether the vote passed or failed.
-
-
-
+if yesVotes > noVotes {
+    print("The mascot should change")
+} else if yesVotes < noVotes {
+    print("The mascot should not change")
+    
+} else {
+    print("It's a draw")
+}
 //: - callout(Exercise): Test your code by calling the `for…in` loop on each of the vote collections.\
 //:Which measures won by popular vote?
+yesVotes = 0
+noVotes = 0
 
+for vote in shouldInstallCoffeeVendingMachineVotes {
+    if vote == true {
+        yesVotes += 1
+    } else {
+        noVotes += 1
+    }
+}
 
+if yesVotes > noVotes {
+    print("The coffee vending machine should be installed")
+} else if yesVotes < noVotes {
+    print("The coffee vending machine should not be installed")
+    
+} else {
+    print("It's a draw")
+}
 
+yesVotes = 0
+noVotes = 0
 
+for vote in shouldHaveMorePollOptionsVotes {
+    if vote == true {
+        yesVotes += 1
+    } else {
+        noVotes += 1
+    }
+}
+
+if yesVotes > noVotes {
+    print("The poll should have more options")
+} else if yesVotes < noVotes {
+    print("The poll should not have more options")
+    
+} else {
+    print("It's a draw")
+}
 /*:
  ### Extension:
  Your `for…in` loop would be even more powerful if you could easily reuse it. The easiest way to reuse code is to put it in a function.
@@ -46,9 +91,33 @@ let shouldHaveMorePollOptionsVotes: [Bool] = [false, false, true, true, false, t
  */
 // Add your vote-processing function here:
 
+func printResults(_ forIssue: String, _ withVotes: [Bool]) -> String {
+    
+    var yesVotes: Int = 0
+    var noVotes: Int = 0
+    var result: String
+    
+    for vote in withVotes {
+        if vote == true {
+            yesVotes += 1
+        } else {
+            noVotes += 1
+        }
+    }
+    
+    if yesVotes > noVotes {
+        result = "\(forIssue) Yes"
+    } else if yesVotes < noVotes {
+        result = "\(forIssue) No"
+    } else {
+        result = "\(forIssue) It's a draw"
+    }
+    
+    return result
+    
+}
 
-
-
-
-
+printResults("Should we change the mascot?", shouldMascotChangeVotes)
+printResults("Should we install a coffee vending machine?", shouldInstallCoffeeVendingMachineVotes)
+printResults("Should we have more poll options?", shouldHaveMorePollOptionsVotes)
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Goals](@next)

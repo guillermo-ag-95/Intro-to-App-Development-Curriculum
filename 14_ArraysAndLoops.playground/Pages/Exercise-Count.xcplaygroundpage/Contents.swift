@@ -10,9 +10,7 @@ devices.count
 //: The only safe indices to use for an array are those less than the `count`.
 //: - callout(Exercise): Using what you’ve learned about making decisions, write an if statement that will only access the array if the value of `index` is less than the array's count. Uncomment and update the code below, then update the `index` constant to different numbers and see the results.
 let index = 3
-//if <#comparison statement here#> {
+if index >= 0 && index < devices.count {
     devices[index]
-//}
-
-
+}
 //: [Previous](@previous)  |  page 13 of 17  |  [Next: Exercise: Karaoke Host](@next)

@@ -16,13 +16,12 @@ let starRatings = [1, 2, 3, 4, 5]
  
  - callout(Exercise): What is the type of `grades`? What is the type of `starRatings`?
 */
-let someGrade = grades[0]
-let someRating = starRatings[0]
+let someGrade = grades[0] // String
+let someRating = starRatings[0] // Int
 //: Since arrays always know what kind of element they're holding, you can pull out a single element from that collection and rely on type inference to establish that `someGrade` is a `String` and `someRating` is an `Int`.
 //:
 //: - callout(Exercise): Try setting `anotherGrade` to a number. What happens?
 var anotherGrade = grades[1]
-
-
+// anotherGrade = 2
 //: Next, learn how to work through the values in an array.\
 //: [Previous](@previous)  |  page 5 of 17  |  [Next: Processing Arrays](@next)
