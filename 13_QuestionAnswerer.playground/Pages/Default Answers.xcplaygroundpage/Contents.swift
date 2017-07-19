@@ -21,16 +21,19 @@ func responseTo(question: String) -> String {
         return "To the North!"
     } else {
         
-        let defaultNumber = question.characters.count % 2
+        let defaultNumber = question.characters.count % 3
         
         if defaultNumber == 0 {
             return "That really depends"
-        } else {
+        } else if defaultNumber == 1 {
             return "Ask me again tomorrow"
+        } else {
+            return "Bazinga!"
         }
         
     }
 }
+
 responseTo(question: "Where are the cookies?")
 responseTo(question: "Can I have a cookie?")
 responseTo(question: "PLEASE can I have a cookie?")

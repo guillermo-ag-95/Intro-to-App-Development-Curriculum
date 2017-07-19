@@ -11,9 +11,16 @@ func responseTo(question: String) -> String {
         return "Why, hello there"
     } else if question.hasPrefix("where") {
         return "To the North!"
+    } else if question.hasPrefix("who") {
+        return "I don't know him or her but I'm QuestionBot, nice to meet you"
+    } else if question.hasPrefix("what") {
+        return "My knowledge is limited"
+    } else if question.hasPrefix("how") {
+        return "I don't really know"
     } else {
         return "That really depends"
     }
+    
 }
 
 responseTo(question: "hello there!")
