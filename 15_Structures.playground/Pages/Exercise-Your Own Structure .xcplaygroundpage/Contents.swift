@@ -7,7 +7,7 @@
  */
  // Add your English-language description of the type here. Make sure to add // before each line of your comment description.
  //
- //
+ // A computer should have a model, OS, the amount of RAM and Drive, a list of programs, a switch to turn it on/off.
  //
 
 /*:
@@ -17,18 +17,38 @@
  */
 // Add your own struct here:
 
+import Foundation
 
-
-
-
-
+struct Computer {
+    
+    let model: String
+    let releaseYear: Int
+    var operatingSystem: String
+    var ramMemory: Int
+    var driveMemory: Int
+    var programs: [String]
+    var switchButton: Bool
+    
+    func moreDrivePlease() -> String {
+        
+        var result: String
+        
+        if programs.count >= 50 {
+            result = "I need a bigger drive"
+        } else {
+            result = "The drive is enough"
+        }
+        
+        return result
+    }
+    
+}
 /*:
  - callout(Exercise):
  Use the struct you created to make a new instance of your type.
 
  */
-
-
+var computer = Computer(model: "MacBook Air", releaseYear: 2013, operatingSystem: "macOS", ramMemory: 8, driveMemory: 512, programs: ["1Password", "Pixelmator"], switchButton: true)
 /*:
  - note: Here's an example of a placeholder type used for making a TrainingShoe:
  */

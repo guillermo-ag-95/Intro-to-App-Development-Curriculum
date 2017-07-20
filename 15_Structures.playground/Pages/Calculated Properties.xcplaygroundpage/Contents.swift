@@ -20,6 +20,10 @@ struct Song {
         let seconds = duration % 60
         return "\(minutes)m \(seconds)s"
     }
+    
+    var formattedTitle: String {
+        return "\(title) by \(artist)"
+    }
 }
 let song = Song(title: "No, no, no", artist: "Fizz", duration: 150)
 song.formattedDuration
@@ -31,7 +35,9 @@ song.formattedDuration
  Note that inside the definition of `formattedDuration`, the property `duration` is accessed without dot notation. Within the code of a struct, you can access its own properties directly by their names, without using the dot.
  
  - callout(Exercise): Add another calculated property to `Song` named `formattedTitle`, which gives you a `String`. For the song above, the formatted title would be “No, no, no by Fizz”.
- 
+*/
+song.formattedTitle
+/*:
  Next see how the types you defined can be used in functions.
 
 [Previous](@previous)  |  page 5 of 9  |  [Next: Functions](@next)

@@ -9,9 +9,13 @@ struct Rectangle {
     let width: Int
     let height: Int
     
+    var area: Int {
+        return width * height
+    }
+    
     func biggerThan(_ rectangle: Rectangle) -> Bool {
-        let areaOne = width * height
-        let areaTwo = rectangle.width * rectangle.height
+        let areaOne = area
+        let areaTwo = rectangle.area
         return areaOne > areaTwo
     }
 }
@@ -24,14 +28,8 @@ let otherRectangle = Rectangle(width: 10, height: 20)
 
 rectangle.biggerThan(otherRectangle)
 otherRectangle.biggerThan(rectangle)
-
-
 //: - callout(Exercise): Simplify the `biggerThan` method by creating a calculated property named `area` for the rectangle struct and then using the calculated property inside the `biggerThan()` method.
 //:
-
-
-
-
 
 //: Next, a summary of what you’ve learned.
 //:

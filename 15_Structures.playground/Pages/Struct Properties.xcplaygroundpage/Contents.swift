@@ -10,6 +10,7 @@ struct Song {
     let artist: String
     let duration: Int
 }
+
 let song = Song(title: "No, no, no", artist: "Fizz", duration: 150)
 /*: 
  In the example above, `song` is an instance of `Song`, and `Song` is the type. Each property can be accessed like this:
