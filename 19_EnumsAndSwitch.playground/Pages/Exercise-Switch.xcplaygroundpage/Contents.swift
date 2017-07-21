@@ -8,7 +8,21 @@ enum Target {
 }
 //: This function returns a score given a particular target:
 func score(target: Target) -> Int {
-    return 0
+    
+    var result: Int = 0
+    
+    switch target {
+    case Target.red:
+        result = 10
+    case Target.green:
+            result = 15
+    case Target.blue:
+        result = 25
+    case Target.gold:
+        result = 50
+    }
+    
+    return result
 }
 //: - callout(Exercise): Update the `score(target:)` function to use a switch statement and return the correct score for each target. The statements below tell you the values to aim for:
 score(target: .red)    // This should be 10

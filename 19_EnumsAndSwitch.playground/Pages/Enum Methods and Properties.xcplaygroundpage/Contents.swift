@@ -36,6 +36,19 @@ lunch.emoji
 enum Suit {
     case spades, hearts, diamonds, clubs
     
+    var emoji: String {
+        switch self {
+        case .spades:
+            return "♠️"
+        case .hearts:
+            return "❤️"
+        case .diamonds:
+            return "♦️"
+        case .clubs:
+            return "♣️"
+        }
+    }
+    
     var rank: Int {
         switch self {
         case .spades: return 4
@@ -54,6 +67,8 @@ let oneSuit = Suit.spades
 let otherSuit = Suit.clubs
 oneSuit.beats(otherSuit)
 oneSuit.beats(oneSuit)
+oneSuit.emoji
+otherSuit.emoji
 
 /*:
  - experiment: Add a property to the Suit enum that returns the appropriate emoji for each case: ♠️❤️♦️♣️

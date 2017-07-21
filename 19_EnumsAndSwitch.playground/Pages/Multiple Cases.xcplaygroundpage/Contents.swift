@@ -4,7 +4,7 @@
  On the previous page you used a default case to match three of the values in this enum:
 */
 enum Quality {
-    case bad, poor, acceptable, good, great
+    case terrible, bad, poor, acceptable, good, great
 }
 
 let quality = Quality.good
@@ -20,6 +20,8 @@ case .poor:
     print("That's not good enough")
 case .acceptable, .good, .great:
     print("OK, I'll take it")
+default:
+    print("It's terrible")
 }
 /*:
  - callout(Exercise): Add a new case, `terrible`, to the enum. 

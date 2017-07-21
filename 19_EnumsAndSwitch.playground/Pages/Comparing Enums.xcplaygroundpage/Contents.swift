@@ -12,7 +12,7 @@ enum LunchChoice {
  You can compare enum values using `==`, just as you have with values of the types `String` and `Int`:
 */
 let myLunch = LunchChoice.burger
-let yourLunch = LunchChoice.burger
+let yourLunch = LunchChoice.pasta
 
 if myLunch == yourLunch {
     "We're having the same for lunch!"

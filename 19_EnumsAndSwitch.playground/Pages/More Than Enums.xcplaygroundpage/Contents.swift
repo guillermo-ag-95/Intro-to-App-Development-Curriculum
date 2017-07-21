@@ -28,11 +28,8 @@ soundFor(animal: animal)
 \
 Add a few more animal cases to the switch statement and call the function to test the new cases.
  */
-
-
-
-
-
+soundFor(animal: "chicken")
+soundFor(animal: "velociraptor")
 /*:
 Next revisit the cafeteria example using a switch statement.
  
